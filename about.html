@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta  name="viewport" content="with=device-width, inttial-scale=1.0">
+        <title>Eddy  ~ My Services</title>
+        l<link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+    </head>
+    <body>
+        <section  class="sub-header">
+            <nav>
+                <a href="index.html"><img src="images/logo.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="">HOME</a></li>
+                        <li><a href="">SERVICES</a></li>
+                        <li><a href="">PORTFOLIO</a></li>
+                        <li><a href="">ABOUT  US</a></li>
+                        <li><a href="">BLOG</a></li>
+                        <li><a href="">CONTACT</a></li>
+                        <li><a href="">LOGIN/SIGN UP</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>About Us</h1>
+           
+
+        </section>
+
+          <!--About Us Content-->
+          <section class="about-us">
+            <div class="row">
+                <div class="about-col">
+                    <h1>We Are The Best Online Cyber Cafe</h1>
+                    <p>We do our services equally at an affordable price to all our customers. Contact Us today to see for yourself.</p>
+                    <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+                </div>
+                <div class="about-col">
+                    <img src="IMAGES/mature2.jpeg">
+                </div>
+            </div>
+
+
+
+
+
+
+        </section>
+      
+
+             <!--Footer-->
+             <section class="footer">
+                <h4>ABOUT US</h4>
+                <p>We are a very determined organisation that meets customers requirement to there point of need.</br> Visit us today to experience more and see for yourself  </p>
+                <div class="icons">
+                    <i class="fa fa-facebook"></i>
+                    <i class="fa fa-twitter"></i>
+                    <i class="fa fa-instagram"></i>
+                    <i class="fa fa-linkedin"></i>
+                    <i class="fa fa-whatsapp"></i>
+
+                </div>
+                <p>Made <i class="fa fa-heart-o">  by Eddy Moses</i></p>
+             </section>
+
+
+
+
+
+
+
+
+
+
+
+
+       <!------javaScript for Toggle menu------>
+        <script>
+          var navLinks = document.getElementById("navlinks");
+          function showMenu(){
+            navLinks.style.right = "0";
+          }
+          function hideMenu(){
+            navLinks.style.right = "-200px";
+          }
+        </script>
+
+    </body>
+</html>
