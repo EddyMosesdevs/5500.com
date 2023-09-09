@@ -1,1 +1,1 @@
-# eddytrial.com
+# shadow devs.com
